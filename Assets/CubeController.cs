@@ -33,11 +33,11 @@ public class CubeController : MonoBehaviour
         //TagÅiGroundTag, CubeTagÇ»Ç«Åj
         Debug.Log("è’ìÀÅF" + other.gameObject.tag);
 
-        if (this.gameObject.tag == "CubeTag")
+        if (other.gameObject.tag == "CubeTag")
         {
             GetComponent<AudioSource>().Play();
         }
-        if (this.gameObject.tag == "GroundTag")
+        if (other.gameObject.tag == "GroundTag")
         {
             GetComponent<AudioSource>().Play();
         }
